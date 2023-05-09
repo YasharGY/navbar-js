@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+   display: flex;
+    display: inline-block;
+}
+
+img{
+    max-width: 257px;
+}
+
+.search{
+    float: right;
+    
+}
+input{
+    min-width: 500px;
+    margin-top: 25px;
+    padding-right: 50px;
+    height: 40px;
+    font-size: 15px;
+  box-shadow:lightgrey;
+    border-color: rgb(250, 248, 248);
+    border-style: solid;
+    border-style:ridge;
+    
+}
+#btn-search{
+    
+    font-size: 20px;
+    text-align: center;
+    width: 52px;
+    height: 42px;
+    color: #fff;
+    background-color: #df2424;
+    border: #fff;
+    cursor: pointer;
+    border: none;
+
+}
+#shop{
+  margin-left: 30px;
+  text-align: center;
+}
+.top-nav{
+    margin-top: 20px;
+    height: 60px;
+    overflow: hidden;
+    background-color: #df2424;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    
+    
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+ color: lightgray;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 60px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+#burger{
+  
+  display: none;
+}
+  
+  .top-nav button{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    
+  .logo{
+    text-align: center;
+  }
+  .top-nav{
+    display: none;
+  }
+  .search{
+    background-color: rgb(175, 42, 42);
+    width: 100%;
+  }
+
+  input{
+    background-color: inherit;
+    border-color: #ddd ;
+    border-style:solid ;
+    
+    
+  }
+  
+  
+  
+  
+  
+  }
